@@ -1,0 +1,45 @@
+//字型
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@900&display=swap');
+
+//字體
+.fz-base {
+    font-size: $fz-base;
+}
+
+.fz-s {
+    font-size: $fz-s;
+}
+
+.fz-m {
+    font-size: $fz-m;
+}
+
+.fz-l {
+    font-size: $fz-l;
+}
+
+.fz-xl {
+    font-size: $fz-xl;
+}
+
+.fz-2xl {
+    font-size: $fz-2xl;
+}
+
+.fz-3xl {
+    font-size: $fz-3xl;
+}
+
+.fz-4xl {
+    font-size: $fz-4xl;
+}
+
+//粗體
+.fw-b {
+    font-weight: bold;
+}
+
+//換行
+.ws-nowrap {
+    white-space: nowrap;
+}

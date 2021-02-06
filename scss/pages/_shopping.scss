@@ -1,0 +1,144 @@
+.shopping {
+    nav {
+        a {
+            border-bottom: 1px solid #3D1101;
+            border-radius: 3px;
+            transition: .3s;
+
+            &:hover {
+                background-color: $primary;
+                color: $white;
+            }
+        }
+    }
+
+    .search {
+        width: 76%;
+
+        input {
+            width: 100%;
+            border: 2px solid #3D1101;
+        }
+
+        a {
+            padding: 7px;
+            right: 1px;
+        }
+
+        @include mobile {
+            width: 100%;
+        }
+    }
+
+    .cart {
+        a:after {
+            content: "";
+            position: absolute;
+            top: 5px;
+            right: 10px;
+            height: 14px;
+            border-right: 1px solid #3D1101;
+        }
+
+        span {
+            width: 16px;
+            height: 16px;
+            top: -4px;
+            right: 4px;
+
+            @include mobile {
+                top: 6%;
+            }
+
+            @include i6plus {
+                top: 3%;
+            }
+        }
+    }
+
+    .product {
+        li {
+            width: 31%;
+            margin-right: 16px;
+            margin-bottom: 16px;
+
+            @include ipad {
+                width: 47%;
+            }
+
+            @include i6plus {
+                width: 97%;
+            }
+        }
+
+        img {
+            height: 120px;
+            object-fit: cover;
+        }
+
+        a {
+            top: 9px;
+            left: 9px;
+
+            &:hover {
+                font-weight: bold;
+            }
+        }
+
+        .bottom-line {
+            &:after {
+                content: "";
+                position: absolute;
+                bottom: -8px;
+                left: 50%;
+                transform: translateX(-50%);
+                ;
+                border-bottom: 1px solid $primary;
+                width: 80px;
+                height: 1px;
+            }
+        }
+
+
+    }
+
+    .ribbon-wrap {
+        width: 106px;
+        height: 108px;
+        overflow: hidden;
+        position: absolute;
+        top: -5px;
+        right: -5px;
+
+        .ribbon {
+            position: relative;
+            top: 16px;
+            right: 10px;
+            width: 148px;
+            padding: 4px 0;
+            transform: rotate(45deg);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+            &:before {
+                content: "";
+                border-left: 8px solid #49a080;
+                border-right: 8px solid transparent;
+                border-bottom: 8px solid transparent;
+                position: absolute;
+                right: 120px;
+                bottom: -8px;
+            }
+
+            &:after {
+                content: "";
+                border-right: 8px solid #49a080;
+                border-left: 8px solid transparent;
+                border-bottom: 8px solid transparent;
+                position: absolute;
+                right: 15px;
+                bottom: -8px;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,11 @@
+.form-login {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 8px;
+    border-top: 4px solid $danger;
+    box-shadow: 3px 3px 4px 0 rgba(0, 0, 0, 0.2);
+
+    input {
+        width: 100%;
+    }
+}

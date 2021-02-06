@@ -1,0 +1,64 @@
+.introduction {
+    h2 {
+
+        &:before,
+        &:after {
+            content: "";
+            width: 120px;
+            height: 1px;
+            position: absolute;
+            background-color: $statusline;
+            top: 50%;
+
+            @include mobile {
+                display: none;
+            }
+
+        }
+
+        &:before {
+            left: 25%;
+
+            @include ipad {
+                left: 20%;
+            }
+        }
+
+        &:after {
+            right: 25%;
+
+            @include ipad {
+                right: 20%;
+            }
+        }
+    }
+}
+
+.chef {
+    .chefbanner {
+        background: right url(../../images/chef.png);
+        height: 460px;
+
+        @include mobile {
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+}
+
+.booking {
+    background-color: rgba(250, 250, 250, 0.70);
+
+    form {
+        >input {
+            width: 100%;
+            margin-bottom: 12px;
+            padding: 8px;
+        }
+
+        >label {
+            margin-bottom: 6px;
+
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.footer {
+    .information {
+        width: 65%;
+
+        @include mobile {
+            width: 100%;
+        }
+    }
+
+    .social {
+        width: 35%;
+
+        @include mobile {
+            width: 100%;
+        }
+    }
+}

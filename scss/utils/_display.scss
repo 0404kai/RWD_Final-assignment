@@ -1,0 +1,49 @@
+.d-block {
+    display: block;
+}
+
+.d-inline {
+    display: inline;
+}
+
+.d-inlne-block {
+    display: inline-block;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-table {
+    display: table;
+}
+
+.d-none {
+    display: none;
+}
+
+@include mobile {
+    .d-md-block {
+        display: block;
+    }
+
+    .d-md-inline {
+        display: inline;
+    }
+
+    .d-md-inlne-block {
+        display: inline-block;
+    }
+
+    .d-md-flex {
+        display: flex;
+    }
+
+    .d-md-table {
+        display: table;
+    }
+
+    .d-md-none {
+        display: none;
+    }
+}

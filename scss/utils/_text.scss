@@ -1,0 +1,19 @@
+//圖片取代文字
+.t-hide {
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+//文字方向
+.t-left {
+    text-align: left;
+}
+
+.t-right {
+    text-align: right;
+}
+
+.t-center {
+    text-align: center;
+}

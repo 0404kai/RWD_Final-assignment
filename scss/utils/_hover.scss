@@ -1,0 +1,23 @@
+.link-hover {
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 0%;
+        border-bottom: 2px solid #00CC99;
+        transition: 0.4s;
+    }
+
+    &:hover:after {
+        width: 100%;
+    }
+
+}
+
+.flip-hover {
+    &:hover {
+        transform: rotateY(360deg);
+        transition: 1s;
+    }
+}

@@ -1,0 +1,26 @@
+.header {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 10;
+
+    h1 a {
+        font-family: 'Noto Sans TC';
+    }
+}
+
+.banner {
+    background: center url(../../images/header_desktop.png);
+    background-repeat: no-repeat;
+    height: 420px;
+
+    @include i6plus {
+        background: center url(../../images/header_mobile.png);
+        background-repeat: no-repeat;
+    }
+
+    .slogan {
+        background-color: rgba(0, 0, 0, 0.35);
+    }
+
+
+}
