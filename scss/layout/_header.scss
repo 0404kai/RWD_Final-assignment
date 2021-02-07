@@ -9,12 +9,12 @@
 }
 
 .banner {
-    background: center url(../../images/header_desktop.png);
+    background: center url(../images/header_desktop.png);
     background-repeat: no-repeat;
     height: 420px;
 
     @include i6plus {
-        background: center url(../../images/header_mobile.png);
+        background: center url(../images/header_mobile.png);
         background-repeat: no-repeat;
     }
 
