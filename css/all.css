@@ -4243,14 +4243,14 @@ input {
 }
 
 .banner {
-  background: center url(../../images/header_desktop.png);
+  background: center url(../images/header_desktop.png);
   background-repeat: no-repeat;
   height: 420px;
 }
 
 @media (max-width: 414px) {
   .banner {
-    background: center url(../../images/header_mobile.png);
+    background: center url(../images/header_mobile.png);
     background-repeat: no-repeat;
   }
 }
@@ -4315,7 +4315,7 @@ input {
 }
 
 .chef .chefbanner {
-  background: right url(../../images/chef.png);
+  background: right url(../images/chef.png);
   height: 460px;
 }
 
